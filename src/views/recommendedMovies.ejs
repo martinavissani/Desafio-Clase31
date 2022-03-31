@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Películas mejor calificadas </title>
+        <link rel='stylesheet' href='/css/style.css' />
+</head>
+
+<body>
+        <figure> <a href="/"> <img src="/img/logo-DH.png" alt="Logo DH"> </a> </figure>    
+        <br>
+        <h1 class="titulos"> PELÍCULAS MEJOR CALIFICADAS </h1>
+        <br>
+
+        <ul>
+              <% for(let i = 0; i < peliculas.length; i++) {%>
+              <li type="none" class="listaPeliculasRecomendadas"> 
+              <br>
+              <a href="/movies/detail/<%=peliculas[i].id%>"> <%= peliculas[i].title %> </a> </li>
+              <%} %>
+        </ul>
+        <br>
+        <br>
+        <p> <a class="botonVolverInicioP" href="/"> Volver </a> </p>
+</body>
+
+</html>
+
+

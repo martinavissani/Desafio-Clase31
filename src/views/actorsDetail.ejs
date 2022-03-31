@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+        <meta charset="UTF-8">  
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Actor </title>
+        <link rel='stylesheet' href='/css/style.css' />
+</head>
+
+<body>
+        <figure> <a href="/"> <img src="/img/logo-DH.png" alt="Logo DH"> </a> </figure>    
+        <br>
+        <h1> Actor </h1>
+        <br>
+        <p> Nombre: <%= actor.first_name %> </p>
+        <br>
+        <p> Apellido: <%= actor.last_name %> </p>
+        <br>
+        <p> Rating: <%= actor.rating + "/10.0" %>  </p>
+        <br>
+        <br>
+        <p> <a class="botonVolverActor" href="/actors"> Volver </a> </p>
+</body>
+
+</html>

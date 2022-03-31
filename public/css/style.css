@@ -1,0 +1,135 @@
+/* GENERAL */
+
+*
+{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+/* CUERPO */
+
+body 
+{
+padding: 50px;
+font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+/* HIPERVINCULOS */
+
+a 
+{
+color: lightslategray;
+text-decoration: none;
+}
+
+/* IMAGENES */
+
+img
+{
+width: 100%;
+}
+
+figure
+{
+width: 20%;
+}
+
+/* TITULOS */
+
+.titulos
+{
+text-align: center;
+}
+
+/* BOTONES */
+
+.botonVolverPelicula
+{
+color: white;
+background-color: lightskyblue;
+padding: 10px;
+border-radius: 10px;
+}
+
+.botonVolverGenero
+{
+color: white;
+background-color: lightskyblue;
+padding: 10px;
+border-radius: 10px;
+}
+
+.botonVolverActor
+{
+color: white;
+background-color: lightskyblue;
+padding: 10px;
+border-radius: 10px;
+}
+
+.botonVolverInicioG
+{
+color: white;
+background-color: lightcoral;
+padding: 10px;
+border-radius: 10px;
+margin-left: 596px;
+}
+
+.botonVolverInicioP
+{
+color: white;
+background-color: lightcoral;
+padding: 10px;
+border-radius: 10px;
+margin-left: 600px;
+}
+
+.botonVolverInicioA
+{
+color: white;
+background-color: lightcoral;
+padding: 10px;
+border-radius: 10px;
+margin-left: 600px;
+}
+
+/* FORMULARIOS */
+
+.formulario
+{
+margin: auto;
+width: 20%;
+}
+
+/* LISTAS */
+
+.listaGeneros
+{
+text-align: center;
+}
+
+.listaPeliculas
+{
+text-align: center;
+}
+
+.listaPeliculasNuevas
+{
+text-align: center;
+}
+
+.listaActores
+{
+text-align: center;
+}
+
+.listaPeliculasRecomendadas
+{
+text-align: center;
+}
+
+
+
+
